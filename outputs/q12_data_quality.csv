@@ -1,0 +1,8 @@
+check_name,issue_count,handling
+Delivered-status orders with a NULL delivered date,8,excluded
+Orders where delivered date is before purchase date,0,excluded
+Orders with more than one review,547,deduplicated
+Orders in orders with no rows in order_items,775,excluded
+Products with a NULL product_category_name,610,labeled unknown
+Delivered orders with no review,646,kept with a nullable review
+Orders outside the analysis window,267,excluded

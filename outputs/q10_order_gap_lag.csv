@@ -1,0 +1,4 @@
+prev_bucket,repeat_orders,avg_days_between_orders
+1-3 days late,45,46.6
+4+ days late,130,64.2
+On time,2932,79.3

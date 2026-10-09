@@ -1,0 +1,9 @@
+CREATE INDEX IF NOT EXISTS ix_orders_id ON orders(order_id);
+CREATE INDEX IF NOT EXISTS ix_orders_cust ON orders(customer_id);
+CREATE INDEX IF NOT EXISTS ix_cust_id ON customers(customer_id);
+CREATE INDEX IF NOT EXISTS ix_items_order ON order_items(order_id);
+CREATE INDEX IF NOT EXISTS ix_items_seller ON order_items(seller_id);
+CREATE INDEX IF NOT EXISTS ix_pay_order ON order_payments(order_id);
+CREATE INDEX IF NOT EXISTS ix_rev_order ON order_reviews(order_id);
+CREATE INDEX IF NOT EXISTS ix_prod_id ON products(product_id);
+CREATE INDEX IF NOT EXISTS ix_sell_id ON sellers(seller_id);
